@@ -50,11 +50,10 @@ p {
     font-size: 18px;
 }
 ul{
-    padding: 0;
+    padding-left: 15px;
 }
 li{
-    font-size: 18px;
-    list-style-position: inside;
+    font-size: 16px;
     list-style: circle;
 }
 
@@ -185,7 +184,7 @@ section {
 .skills-container{
     margin-bottom: 1.4rem;
     display: flex;
-    flex-direction: column;
+   flex-direction: column; 
     align-items: center;
 }
 .skills-text-box{
@@ -207,37 +206,33 @@ section {
     font-weight: 600;
 }
 /* --------------------------portfolio-------------------------------- */
-.portfolio-section{
-    display: flex;
-    flex-direction: column;
-}
-.portfolio-site{
+
+/* -------------------blogging----------------------------- */
+.portfolio-blog{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
-.portfolio-text-box{
+
+.blog-text-container{
+    margin-bottom: 1.2rem;
+}
+.blog-post-container{
+    width: 90%;
+    display: flex;
+}
+.blog-post{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.4rem;
 }
-.portfolio-text-box p{
-    text-align: center;
-    margin-bottom: 0.9rem;
-}
-.portfolio-img{
-    width: 60%;
-}
-.portfolio-img img{
-    width: 100%;
-}
-.portfolio-content{
-    border: 1px solid red;
+.post-img{
+    border: 1px solid #a8aedd;
+    background-color: #a8aedd;
+    width: 90%;
+    height: 350px;
 
 }
-
 
 /* ------------------footer-------------------------------- */
 footer{
@@ -344,8 +339,35 @@ footer span a{
 }
 
 /* ------------------------------------portfolio--------------------------------- */
-.portfolio-img{
+/* --------------bloggin---------------------- */
+.portfolio-blog{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.blog-text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.blog-post-container{
     width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.post-img{
+    border: 1px solid #a8aedd;
+    background-color: #a8aedd;
+    width: 100%;
+    height: 450px;
+
+}
+.blog-post{
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 }
