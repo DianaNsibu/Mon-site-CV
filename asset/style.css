@@ -220,8 +220,10 @@ section {
 .blog-post-container{
     width: 90%;
     display: flex;
+    justify-content: space-between;
 }
 .blog-post{
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,6 +234,9 @@ section {
     width: 90%;
     height: 350px;
 
+}
+.blog-post p{
+    text-align: center;
 }
 
 /* ------------------footer-------------------------------- */
@@ -364,11 +369,13 @@ footer span a{
 
 }
 .blog-post{
+    width: 80%;
     margin-bottom: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 }
 
